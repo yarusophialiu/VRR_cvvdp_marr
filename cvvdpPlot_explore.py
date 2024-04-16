@@ -110,12 +110,12 @@ if __name__ == "__main__":
     LOG = True
 
     file_path = 'cvvdp_0326.xlsx'
-    sheet_name='Sheet1' # sunroom_0328
+    sheet_name='sunroom_0328' # sunroom_0328
     df = pd.read_excel(file_path, sheet_name=sheet_name, na_values=['NA'])
     # bitrate_dict = {16000: 0, 32000: 1, 8000: 2, 1000: 3, 2000: 4, 4000: 5, 500: 6}
     bitrate_dict = {500: 0, 1000: 1, 2000: 2, 4000: 3, 8000: 4, 16000: 5, 32000: 6}
     refresh_rate = [60, 70, 80, 90, 120, 150, 160]
-    bitrates = [8000]
+    bitrates = [4000]
     # num = 10
     # num_of_fps = 10
 
